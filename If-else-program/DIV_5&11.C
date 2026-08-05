@@ -1,7 +1,6 @@
 #include<stdio.h>
-#include<conio.h>
 
-main(){
+int main(){
 	int num;
 	clrscr();
 	printf("Enter Number: ");
@@ -11,5 +10,5 @@ main(){
 	}else{
 		printf("It is not divisible");
 	}
-	getch();
+	return 0;
 }

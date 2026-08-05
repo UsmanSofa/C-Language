@@ -1,11 +1,9 @@
 #include<stdio.h>
-#include<conio.h>
 
-main(){
-	clrscr();
+int  main(){
 	printf("name: Usman Sofawala!\n");
 	printf("age: 22\n");
 	printf("college: Bhagwan Mahavir University");
-	getch();
+	return 0;
 
 }
