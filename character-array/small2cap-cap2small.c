@@ -1,6 +1,6 @@
 #include<stdio.h>
 int main(){
-    char name[12]= "heLlo WoRlD";
+    char name[]= "heLlo WoRlD";
     for(int i= 0 ;name[i]!='\0';i++){
         if(name[i]>'a'&& name[i]<'z')
         {
